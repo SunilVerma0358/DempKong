@@ -87,7 +87,7 @@ const Faq = () => {
                   openAccordion === index ? "open px-3 pb-5 pt-[9px]" : ""
                 }`}
               >
-                {item.content}
+                <p className="para"> {item.content}</p>
               </div>
             </div>
           ))}

@@ -83,11 +83,16 @@
     /* accordion */
     
     .accordion-content {
-        max-height: 0;
+        height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease-out;
+        transition: max-height 1s linear !important;
+    }
+    
+    .para {
+        -webkit-font-smoothing: antialiased;
     }
     
     .accordion-content.open {
-        max-height: 350px;
+        height: auto;
+        transition: max-height 1s linear !important;
     }
